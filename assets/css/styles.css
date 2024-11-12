@@ -1,0 +1,68 @@
+/* Configurações para o vídeo de fundo */
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1; 
+}
+
+/* Outros estilos */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin-top: 10px;
+    margin-bottom:50px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-weight: bold;
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 10px;
+}
+h6 {
+    font-weight: bold;
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+li {
+    color: #343a40;
+    margin-bottom: 5px;
+}
+/* Estilo para o Footer com Fundo Transparente */
+#footer {
+    background-color: rgba(0, 0, 0, 0.6); /* Fundo preto semi-transparente */
+    color: #ffffff;                       /* Cor do texto branco */
+    text-align: center;                   /* Centraliza o conteúdo */
+    padding: 5px;                      /* Espaçamento interno */
+    font-size: 14px;                      /* Tamanho da fonte */
+    position: fixed;                      /* Mantém o footer fixo no fundo */
+    bottom: 0;                            /* Posiciona no fundo da página */
+    width: 100%;                          /* Largura total da página */
+    z-index: 10;                          /* Nível de camada para aparecer sobre o conteúdo */
+    backdrop-filter: blur(5px);           /* Efeito de desfoque no fundo */
+}
+
+#footer a {
+    color: #f8c471;                       /* Cor dos links */
+    text-decoration: none;                /* Remove o sublinhado */
+    transition: color 0.3s;               /* Transição suave ao passar o mouse */
+}
+
+#footer a:hover {
+    color: #ffcc00;                       /* Cor ao passar o mouse */
+}
+
